@@ -16,8 +16,8 @@ function Menuitems({title,address}:props) {
  
 
   return (
-    <div className=' '>
-      <Link className={`${IsActive ? ("active"):''} text-[14px]`} href={address}>{title}</Link>
+    <div className=' flex-col md:flex md:flex-row '>
+      <Link className={`${IsActive ? ("active"):''}  text-[14px]`} href={address}>{title}</Link>
       
     </div>
   )
