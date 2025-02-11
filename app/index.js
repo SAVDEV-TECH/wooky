@@ -1,11 +1,8 @@
-import Image from "next/image";
- 
- 
+import React from 'react'
 
-export default function Home() {
+function index() {
   return (
-     <div>
-        <div className='w-[90%] md:w-[70%] mx-auto py-7'>
+    <div className='w-[90%] md:w-[70%] mx-auto py-7'>
     <div className="">
       <h3 className='mt-7 bg-[#DBD8FC] w-max rounded-[18px] py-2 px-6'>Privacy Policy for Arc Store</h3>
       .
@@ -151,7 +148,7 @@ export default function Home() {
     </div>
  
   </div>
- 
-     </div>
-  );
+  )
 }
+
+export default index
